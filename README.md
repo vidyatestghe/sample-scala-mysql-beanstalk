@@ -1,0 +1,2 @@
+sample-scala-mysql-beanstalk
+============================
