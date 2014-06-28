@@ -1,0 +1,5 @@
+.elasticbeanstalk/
+shippable/
+target/
+.*.swp
+
