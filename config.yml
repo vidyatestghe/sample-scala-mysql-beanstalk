@@ -1,0 +1,8 @@
+branch-defaults:
+  master:
+    environment: sample-scala-env
+global:
+  application_name: sample-scala
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
