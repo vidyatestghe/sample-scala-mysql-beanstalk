@@ -9,7 +9,7 @@ env:
     - secure: tD2cjFcQ6xqzxhBjqu2y8XIqyw5kbwd2IhhocYJYtHlBAxVATmL5VTaH8WlqKC5O5wzTujekVmhlJ5eNrmVa3kBqDxKd4Go+oELoM0crDBepSudRoVHd11ee+YRhsgCuj3tfXSR+bUJV9wBcvZBRcTwDs1Nz82zX45R3pQzMIQ0JbSTGIppXtonYCpw9yx1JUpMtOf6XwcXfnOyUKWGsE8Abj9AOZxQ0oGalEtdSbrBUIY8iwzV0j/VzijfZzRpAK23AvOZLVNlp0+JCK+5OFlSOgVn4KV9j6lFA4MpT4dBacYItXNOkLVpx5fxVfq+r6CE8YlQObv4V0nJWTf2wtw==
 
 before_install:
-  - pip install awsebcli
+  - SUDO=$(which sudo) && $SUDO pip install awsebcli
 
 before_script: 
   - mkdir -p shippable/testresults
