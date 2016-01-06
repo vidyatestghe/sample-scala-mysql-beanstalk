@@ -1,8 +1,16 @@
 language: scala
 
+build_image: drydock/u14scaall:tip
+
 scala:
   - 2.10.0
-
+  - 2.11.0
+  - 2.11.6
+  - 2.10.5
+  - 2.9.3
+  
+services:
+  - mysql
 env:
   global:
     - AWSAccessKeyId=AKIAJJL2U6T3F3Y5JIGA
