@@ -1,6 +1,6 @@
 language: scala
 
-build_image: drydock/u14scaall:tip
+build_image: drydock/u12scaall:tip
 
 scala:
   - 2.10.0
