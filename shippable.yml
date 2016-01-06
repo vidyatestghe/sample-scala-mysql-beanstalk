@@ -1,5 +1,6 @@
 language: scala
 
+
 build_image: drydock/u12scaall:tip
 
 scala:
